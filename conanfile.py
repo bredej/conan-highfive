@@ -18,7 +18,7 @@ class HighFiveConan(ConanFile):
 
     def source(self):
         source_url = "https://github.com/BlueBrain/HighFive"
-        tools.get("{0}/archive/v{1}.zip".format(source_url, self.version), sha256="35D594207CE7971D257AAFE92C0299DD9C1E749E244A39F0A6479818C96087A1")
+        tools.get("{0}/archive/v{1}.zip".format(source_url, self.version), sha256="35d594207ce7971d257aafe92c0299dd9c1e749e244a39f0a6479818c96087a1")
         extracted_dir = self.name + "-" + self.version
         os.rename(extracted_dir, self._source_subfolder)
 
