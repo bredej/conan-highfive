@@ -9,7 +9,7 @@ class HighFiveConan(ConanFile):
     topics = ("conan", "HighFive", "HDF5")
     url = "https://github.com/bredej/conan-highfive"
     homepage = "https://github.com/BlueBrain/HighFive"
-    author = "Adrien Devresse <adrien.devresse@epfl.ch>"
+    author = "Brede Johansen <bredej@gmail.com>"
     license = "BSL-1.0"
     no_copy_source = True
     exports = ["LICENSE"]
