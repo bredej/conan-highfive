@@ -14,6 +14,8 @@ class HighFiveConan(ConanFile):
     no_copy_source = True
     exports = ["LICENSE"]
     requires = "hdf5/1.10.6@_/_"
+    default_options = { "hdf5:with_zlib": False }
+
     _source_subfolder = "source_subfolder"
 
     def source(self):
