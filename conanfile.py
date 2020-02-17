@@ -13,8 +13,7 @@ class HighFiveConan(ConanFile):
     license = "BSL-1.0"
     no_copy_source = True
     exports = ["LICENSE"]
-    requires = "hdf5/1.10.6@_/_"
-    default_options = { "hdf5:with_zlib": False }
+    requires = "hdf5/1.10.6"
 
     _source_subfolder = "source_subfolder"
 
